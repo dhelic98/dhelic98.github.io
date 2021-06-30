@@ -12,7 +12,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Deploy Jekyll Site
+<<<<<<< HEAD
       uses: sujaykundu777/jekyll-deploy-action@v1
+=======
+      uses: sujaykundu777/jekyll-deploy-action@1.0.2
+>>>>>>> upstream/master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}

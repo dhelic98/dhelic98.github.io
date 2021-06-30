@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
+# Navigation
 urls:
     - text: Home
       url: /
@@ -19,10 +20,6 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
@@ -32,7 +29,7 @@ author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "mail@sujaykundu.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 
 # Experiences
 author_work_experiences:
@@ -94,8 +91,13 @@ wakatime_username: sujaykundu777
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
-# formspree (contact form)
+# contact form - (choose formspress or getform)
+getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
 formspree_email: johndoe@gmail.com
+
+# releases - widget can be (sidebar, modal or embed)
+olvy_organization: devlopr
+olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -155,6 +157,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-menus
+  - jekyll-admin
+
+# Jekyll Admin Config
+jekyll_admin:
+  # hidden_links:
+  #   - posts
+  #   - pages
+  #   - staticfiles
+  #   - datafiles
+  #   - configuration
+  homepage: "posts"
 
 
 # Exclude from processing.
@@ -164,7 +177,6 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
