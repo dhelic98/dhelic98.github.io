@@ -1,5 +1,4 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Dzenan's protfolio
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -8,77 +7,86 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: profile.jpg
+author: Dzenan Helic
+author_bio: Hello there, my name is Dzenan and I’m a Full Stack developer with more than 3 years of experience in development. I’m most comfortable with stack that includes Angular or React on frontend and Node.js on the backend. Since I have worked on couple of different projects, you can be certain that I will adapt to your workflow as quickly as possible. If you need someone to maintain your legacy project, implement some new features on it or even build something from scratch, I’m your guy so feel free to HIT ME UP. Besides coding in my free time I enjoy gaming, reading about philosophy and history as well as listeting to podcast and trying to learn something new everyday. Active member of student NGO trying to make our world a better place.
+author_email: "dzenan.helic@gmail.com"
+author_location: Bosnia and Herzegovina
+typewrite-text: Welcome to my personal site made using developr a jekyll theme built for developers
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Bicom Systems
+              company_logo: bicom.png
+              company_url: https://www.bicomsystems.com/
+              designation: Software Engineer Intern
+              description: Worked on PBX System
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Cape Ann Enterprises
+              company_logo: cadesign.png
+              company_url: https://capeannenterprises.com/
+              designation: Drupal & Angular Developer(Intern)
+              description: Worked on Drupal 7 project(Active Science)
+              visibility: true
+            - company_name: Leftor
+              company_logo: leftor.jpg
+              company_url: https://leftor.com
+              designation: PHP(Yii2) Intern
+              description: 3 month internship where I worked with Yii2
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: fet.png
+                college_name: Faculty of Electrical engineering Tuzla
+                college_url: http://www.fe.untz.ba/
+                college_degree: Automation and Robotics Engineer
+                description: Bachelor of Engineering
                 visibility: true
+              - college_logo: bild.png
+                visibility: true
+                description: Java Development Training
+                college_name: BILD-IT
+                college_url: https://mozemo.ba/
+                college_degree: Junior Java Developer
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: escapeassist.jpg
+                project_title: EscapeAssist
+                project_description: A Platform for Assisting Escape Room Bussinesses, EscapeAssist uses classic MEAN stack for most of its products.
+                project_url: https://escapeassist.com/
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: ericli.webp
+                project_title: Eric's Page
+                project_description: Personal website using Gastby.io and Sanity.io made with supplied theme and design 
+                project_url: https://ericlli.com
+                visibility: true
+              - project_title: DnD Tools
+                project_description: DnD Tools is wiki-like Django web application used as a helper for Dungeons and Dragons players(Only old version is online updates aren't live)
+                project_url: http://dndtools.org/
+                visibility: true
+                project_thumbnail: dndtools.png
+              - project_thumbnail: meetingroom.svg
+                project_title: Meeting Room 365
+                project_description: Meeting Room 365 is Node.js Application For Managing Displays at Your Office. I Worked On Cordova Part Of Application, Where I Had To Create Cordova/Android Pluging For Handling Crashes
+                project_url: https://www.meetingroom365.com/
+                visibility: true
+              - project_thumbnail: watts.jpg
+                project_title: Watt's Market
+                project_description: Mobile Application Built Using React Native, Application Serves As In Store Inventory Management Working With COMCash POS, Also Had To Develop REST API and CRON Triggered Web Scraping Of Suppliers Data
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  dhelic98
+linkedin_username: dženan-helić-455aa3136
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -92,12 +100,10 @@ wakatime_username: sujaykundu777
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
+getform_endpoint: 1e51da73-6338-40a0-bf0b-6a19617730bf
 formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown

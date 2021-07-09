@@ -673,6 +673,8 @@ header {
         height: 150px;
         margin-left: 20px;
         border-radius: 50%;
+        object-fit: cover;
+        object-position: 0px 0px;
     }
     .profile-name {
         margin-top: 20px;
@@ -707,6 +709,7 @@ header {
     .project-img {
         width: 300px;
         height: 200px;
+        object-fit: contain;
     }
     #project-card{
         margin-top:30px;
@@ -716,16 +719,22 @@ header {
     }
 }
 
+.author_intro{
+    text-align: justify;
+}
 
 .company-logo {
     width: 100px;
     height: 100px;
+    object-fit: contain;
 }
 
 .author-profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px 0px;
 }
 
 .blog-post {
@@ -782,6 +791,7 @@ footer {
     padding: 20px;
     background-color: var(--main-background-color);
     color: var(--main-text-color);
+    margin-top: 50px;
 }
 
 
