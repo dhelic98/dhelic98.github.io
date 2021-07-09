@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: dhelic98/dhelic98.github.io
-  branch: master
-  site_domain: dhelic98.github.io
+  branch: gh-pages
+  site_domain: peaceful-yalow-2d6d49.netlify.app
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads
